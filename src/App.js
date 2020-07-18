@@ -4,7 +4,9 @@ import todosData from "./components/todosData";
 import "./styles.css";
 
 class App extends React.Component {
+  //YourMethod(){}
   render() {
+    //const test= this.YourMethod()
     const todoItems = todosData.map(item => (
       <TodoItem key={item.id} item={item} />
     ));
